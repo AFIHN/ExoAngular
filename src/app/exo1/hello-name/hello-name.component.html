@@ -12,7 +12,7 @@
 </form>
 
 <form>
-  <label for="police">Police : </label>
+  <label for="police">Police :  </label>
   <select
     name="police"
     id="police"
@@ -20,7 +20,7 @@
     (change)="updatePolice(police.value)"
   >
     <option value="courier-new">Courier New</option>
-    <option value="franklin-gothic">Franklin Gothic Medium"</option>
+    <option value="franklin-gothic">Franklin Gothic Medium</option>
     <option value="gill-sans">Gill Sans</option>
     <option value="lucida-sans">Lucida Sans</option>
   </select>
@@ -42,7 +42,7 @@
 
   <div>
     <input
-      type="radio"
+      type="button"
       name="text-align"
       id="left"
       value="left"
@@ -50,28 +50,25 @@
       (click)="updateAlignment(left.value)"
       #left
     />
-    <label for="left">Left</label>
   </div>
   <div>
     <input
-      type="radio"
+      type="button"
       name="text-align"
       id="center"
       value="center"
       (click)="updateAlignment(center.value)"
       #center
     />
-    <label for="center">Center</label>
   </div>
   <div>
     <input
-      type="radio"
+      type="button"
       name="text-align"
       id="right"
       value="right"
       (click)="updateAlignment(right.value)"
       #right
     />
-    <label for="right">Right</label>
   </div>
 </form>

@@ -3,6 +3,10 @@
     display: none;
   }
 }
+
+nav {
+  background-color: burlywood;
+}
 .date {
   border-right: 1px solid;
   padding-right: 10px;

@@ -3,11 +3,21 @@ table {
 }
 
 .content:hover {
-  background-color: rgb(225, 225, 225);
+  background-color:burlywood;
   border-top: 1px solid;
   border-bottom: 1px solid;
 }
 
 tr {
   cursor: pointer;
+}
+
+th {
+  background-color: burlywood;
+}
+
+
+
+::ng-deep {
+  background-color: burlywood;
 }

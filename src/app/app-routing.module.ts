@@ -8,17 +8,17 @@ const routes: Routes = [
   {
     path: '',
     component: HelloNameComponent,
-    title: 'Hello someone',
+    title: 'Exo1',
   },
   {
     path: 'calculator',
     component: CalculatorComponent,
-    title: 'Calculator',
+    title: 'Exo2',
   },
   {
     path: 'transactions',
     component: TransactionListComponent,
-    title: 'Transactions',
+    title: 'Exo3',
   },
 ];
 
